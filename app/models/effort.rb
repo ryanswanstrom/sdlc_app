@@ -4,4 +4,5 @@ class Effort < ActiveRecord::Base
   belongs_to :event
   has_one :user
   has_many :subefforts
+  has_one :organization
 end
