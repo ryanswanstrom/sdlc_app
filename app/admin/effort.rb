@@ -1,4 +1,5 @@
 ActiveAdmin.register Effort do
+  permit_params :title, :txt
 
 
   # See permitted parameters documentation:
