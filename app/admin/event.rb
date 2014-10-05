@@ -1,4 +1,5 @@
 ActiveAdmin.register Event do
+  permit_params :message
 
 
   # See permitted parameters documentation:
