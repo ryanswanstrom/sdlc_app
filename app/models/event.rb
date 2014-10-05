@@ -3,4 +3,5 @@ class Event < ActiveRecord::Base
   belongs_to :effort
   has_one :effort
   has_one :user
+  has_one :event_type
 end
