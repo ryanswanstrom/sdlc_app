@@ -4,4 +4,5 @@ class Event < ActiveRecord::Base
   has_one :effort
   has_one :user
   has_one :event_type
+  acts_as_votable 
 end
