@@ -5,4 +5,5 @@ class Effort < ActiveRecord::Base
   has_one :user
   has_many :subefforts
   has_one :organization
+  acts_as_votable 
 end
