@@ -1,11 +1,13 @@
+**Note: This app is being replaced**
 
-== Getting Started
+# Getting Started
 
-=== Dependencies
+## Dependencies
+
 1. Rails 4.1.4
 1. PostgreSQL
 
-=== Steps
+## Steps
 
     bundle install
     rake db:create:all
